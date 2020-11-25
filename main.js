@@ -16,10 +16,10 @@ const keyReturn = function(event){
 // Write a named function with event handler properties
  let tapKeys = function(note){
   note.onmousedown = function(){
-    keyPlay(event);
+    keyPlay();
   }
   note.onmouseup = function(){
-    keyReturn(event);
+    keyReturn();
   }
 }
 
